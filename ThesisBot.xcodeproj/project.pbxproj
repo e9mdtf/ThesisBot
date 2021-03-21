@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181F97612607A541007CDCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97602607A541007CDCAE /* AppDelegate.swift */; };
+		181F97632607A541007CDCAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97622607A541007CDCAE /* SceneDelegate.swift */; };
+		181F97652607A541007CDCAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97642607A541007CDCAE /* ContentView.swift */; };
+		181F97672607A545007CDCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F97662607A545007CDCAE /* Assets.xcassets */; };
+		181F976A2607A545007CDCAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F97692607A545007CDCAE /* Preview Assets.xcassets */; };
+		181F976D2607A545007CDCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F976B2607A545007CDCAE /* LaunchScreen.storyboard */; };
+		181F97782607A545007CDCAE /* ThesisBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97772607A545007CDCAE /* ThesisBotTests.swift */; };
+		181F97832607A545007CDCAE /* ThesisBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97822607A545007CDCAE /* ThesisBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181F97742607A545007CDCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181F97552607A541007CDCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181F975C2607A541007CDCAE;
+			remoteInfo = ThesisBot;
+		};
+		181F977F2607A545007CDCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181F97552607A541007CDCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181F975C2607A541007CDCAE;
+			remoteInfo = ThesisBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181F975D2607A541007CDCAE /* ThesisBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThesisBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181F97602607A541007CDCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181F97622607A541007CDCAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		181F97642607A541007CDCAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		181F97662607A545007CDCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181F97692607A545007CDCAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		181F976C2607A545007CDCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181F976E2607A545007CDCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F97732607A545007CDCAE /* ThesisBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThesisBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181F97772607A545007CDCAE /* ThesisBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisBotTests.swift; sourceTree = "<group>"; };
+		181F97792607A545007CDCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F977E2607A545007CDCAE /* ThesisBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThesisBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181F97822607A545007CDCAE /* ThesisBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisBotUITests.swift; sourceTree = "<group>"; };
+		181F97842607A545007CDCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181F975A2607A541007CDCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F97702607A545007CDCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F977B2607A545007CDCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181F97542607A541007CDCAE = {
+			isa = PBXGroup;
+			children = (
+				181F975F2607A541007CDCAE /* ThesisBot */,
+				181F97762607A545007CDCAE /* ThesisBotTests */,
+				181F97812607A545007CDCAE /* ThesisBotUITests */,
+				181F975E2607A541007CDCAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181F975E2607A541007CDCAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181F975D2607A541007CDCAE /* ThesisBot.app */,
+				181F97732607A545007CDCAE /* ThesisBotTests.xctest */,
+				181F977E2607A545007CDCAE /* ThesisBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181F975F2607A541007CDCAE /* ThesisBot */ = {
+			isa = PBXGroup;
+			children = (
+				181F97602607A541007CDCAE /* AppDelegate.swift */,
+				181F97622607A541007CDCAE /* SceneDelegate.swift */,
+				181F97642607A541007CDCAE /* ContentView.swift */,
+				181F97662607A545007CDCAE /* Assets.xcassets */,
+				181F976B2607A545007CDCAE /* LaunchScreen.storyboard */,
+				181F976E2607A545007CDCAE /* Info.plist */,
+				181F97682607A545007CDCAE /* Preview Content */,
+			);
+			path = ThesisBot;
+			sourceTree = "<group>";
+		};
+		181F97682607A545007CDCAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				181F97692607A545007CDCAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		181F97762607A545007CDCAE /* ThesisBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				181F97772607A545007CDCAE /* ThesisBotTests.swift */,
+				181F97792607A545007CDCAE /* Info.plist */,
+			);
+			path = ThesisBotTests;
+			sourceTree = "<group>";
+		};
+		181F97812607A545007CDCAE /* ThesisBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181F97822607A545007CDCAE /* ThesisBotUITests.swift */,
+				181F97842607A545007CDCAE /* Info.plist */,
+			);
+			path = ThesisBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181F975C2607A541007CDCAE /* ThesisBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181F97872607A545007CDCAE /* Build configuration list for PBXNativeTarget "ThesisBot" */;
+			buildPhases = (
+				181F97592607A541007CDCAE /* Sources */,
+				181F975A2607A541007CDCAE /* Frameworks */,
+				181F975B2607A541007CDCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThesisBot;
+			productName = ThesisBot;
+			productReference = 181F975D2607A541007CDCAE /* ThesisBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181F97722607A545007CDCAE /* ThesisBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181F978A2607A545007CDCAE /* Build configuration list for PBXNativeTarget "ThesisBotTests" */;
+			buildPhases = (
+				181F976F2607A545007CDCAE /* Sources */,
+				181F97702607A545007CDCAE /* Frameworks */,
+				181F97712607A545007CDCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181F97752607A545007CDCAE /* PBXTargetDependency */,
+			);
+			name = ThesisBotTests;
+			productName = ThesisBotTests;
+			productReference = 181F97732607A545007CDCAE /* ThesisBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181F977D2607A545007CDCAE /* ThesisBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181F978D2607A545007CDCAE /* Build configuration list for PBXNativeTarget "ThesisBotUITests" */;
+			buildPhases = (
+				181F977A2607A545007CDCAE /* Sources */,
+				181F977B2607A545007CDCAE /* Frameworks */,
+				181F977C2607A545007CDCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181F97802607A545007CDCAE /* PBXTargetDependency */,
+			);
+			name = ThesisBotUITests;
+			productName = ThesisBotUITests;
+			productReference = 181F977E2607A545007CDCAE /* ThesisBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181F97552607A541007CDCAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					181F975C2607A541007CDCAE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					181F97722607A545007CDCAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 181F975C2607A541007CDCAE;
+					};
+					181F977D2607A545007CDCAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 181F975C2607A541007CDCAE;
+					};
+				};
+			};
+			buildConfigurationList = 181F97582607A541007CDCAE /* Build configuration list for PBXProject "ThesisBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181F97542607A541007CDCAE;
+			productRefGroup = 181F975E2607A541007CDCAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181F975C2607A541007CDCAE /* ThesisBot */,
+				181F97722607A545007CDCAE /* ThesisBotTests */,
+				181F977D2607A545007CDCAE /* ThesisBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181F975B2607A541007CDCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F976D2607A545007CDCAE /* LaunchScreen.storyboard in Resources */,
+				181F976A2607A545007CDCAE /* Preview Assets.xcassets in Resources */,
+				181F97672607A545007CDCAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F97712607A545007CDCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F977C2607A545007CDCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181F97592607A541007CDCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F97612607A541007CDCAE /* AppDelegate.swift in Sources */,
+				181F97632607A541007CDCAE /* SceneDelegate.swift in Sources */,
+				181F97652607A541007CDCAE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F976F2607A545007CDCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F97782607A545007CDCAE /* ThesisBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181F977A2607A545007CDCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F97832607A545007CDCAE /* ThesisBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181F97752607A545007CDCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181F975C2607A541007CDCAE /* ThesisBot */;
+			targetProxy = 181F97742607A545007CDCAE /* PBXContainerItemProxy */;
+		};
+		181F97802607A545007CDCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181F975C2607A541007CDCAE /* ThesisBot */;
+			targetProxy = 181F977F2607A545007CDCAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181F976B2607A545007CDCAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181F976C2607A545007CDCAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181F97852607A545007CDCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181F97862607A545007CDCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181F97882607A545007CDCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ThesisBot/Preview Content\"";
+				DEVELOPMENT_TEAM = 3FMVYF64D3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ThesisBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aronvikete.ThesisBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181F97892607A545007CDCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ThesisBot/Preview Content\"";
+				DEVELOPMENT_TEAM = 3FMVYF64D3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ThesisBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aronvikete.ThesisBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181F978B2607A545007CDCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FMVYF64D3;
+				INFOPLIST_FILE = ThesisBotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aronvikete.ThesisBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThesisBot.app/ThesisBot";
+			};
+			name = Debug;
+		};
+		181F978C2607A545007CDCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FMVYF64D3;
+				INFOPLIST_FILE = ThesisBotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aronvikete.ThesisBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThesisBot.app/ThesisBot";
+			};
+			name = Release;
+		};
+		181F978E2607A545007CDCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FMVYF64D3;
+				INFOPLIST_FILE = ThesisBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aronvikete.ThesisBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThesisBot;
+			};
+			name = Debug;
+		};
+		181F978F2607A545007CDCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FMVYF64D3;
+				INFOPLIST_FILE = ThesisBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aronvikete.ThesisBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThesisBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181F97582607A541007CDCAE /* Build configuration list for PBXProject "ThesisBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F97852607A545007CDCAE /* Debug */,
+				181F97862607A545007CDCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181F97872607A545007CDCAE /* Build configuration list for PBXNativeTarget "ThesisBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F97882607A545007CDCAE /* Debug */,
+				181F97892607A545007CDCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181F978A2607A545007CDCAE /* Build configuration list for PBXNativeTarget "ThesisBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F978B2607A545007CDCAE /* Debug */,
+				181F978C2607A545007CDCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181F978D2607A545007CDCAE /* Build configuration list for PBXNativeTarget "ThesisBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181F978E2607A545007CDCAE /* Debug */,
+				181F978F2607A545007CDCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181F97552607A541007CDCAE /* Project object */;
+}

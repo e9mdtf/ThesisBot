@@ -8,57 +8,49 @@
 import Foundation
 
 class TranslatorHandler {
+    let session = URLSession.shared
     let googleNlpKey = "AIzaSyDy7VR7Zi4zehbzIWJJINDXrG_QrXJRZEE"
     var TranslateURL : URL {
         return URL(string: "https://translation.googleapis.com/language/translate/v2?key=\(googleNlpKey)")!
     }
+    var translatedText = ""
     func createTranslateRequest (with text: String, handler: @escaping (String) -> Void) {
         var request = URLRequest(url: TranslateURL, cachePolicy: URLRequest.CachePolicy.useProtocolCachePolicy, timeoutInterval: 300)
-        let session = URLSession.shared
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         request.addValue(Bundle.main.bundleIdentifier ?? "", forHTTPHeaderField: "x-ios-bundle-identifier")
         let translationJson : [String : Any] = [
-            "encodingType":"UTF-8",
-            "document": [
-                "q" : text,
+                "q" : text ,
                 "target" : "en"
-            ]
         ]
         let sendJson = JSON(translationJson)
         guard let sendTranslateData = try? sendJson.rawData() else {
             return
         }
         request.httpBody = sendTranslateData
-        let task = session.dataTask(with: TranslateURL) {
-            (data, response, error) in
-            guard error == nil else {
-              print("A google nlp api hívása sikertelen")
-              print(error!)
-              return
-            }
-            guard let responseData = data else {
-              print("Nem érkezett adat a válaszban")
-              return
-            }
+        let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
+            print(response!)
             do {
-              guard let receivedTranslation = try JSONSerialization.jsonObject(with: responseData,
-                options: []) as? [String: Any] else {
-                  print("A válasz JSON nem fordítható át szótár formátumba")
-                  return
-              }
-              print("A megkapott fordítás a következő: " + receivedTranslation.description)
-
-              guard let translatedText = receivedTranslation["translatedText"] as? String else {
-                print("Nem sikerült megtalálni a fordított szöveget a JSON-be")
-                return
-              }
-              print("Az entity neve: \(translatedText)")
-            } catch  {
-              print("Nem megfelelő adatok vannak a válaszban")
-              return
+                let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, Any>
+                let nestedDict = json["data"] as! Dictionary<String, Any>
+                let secondLayer = nestedDict["translations"] as! Array<Any>
+                let lastLayer = secondLayer[0] as! Dictionary<String, String>
+                print("A szótárból csinált szótár printelve")
+                print(nestedDict)
+                print("Második szint:")
+                print(secondLayer)
+                print("Utolsó szint i hope")
+                print(lastLayer)
+                self.translatedText = lastLayer["translatedText"]!
+            } catch {
+                print("error")
             }
-          }
-          task.resume()
+            
+        })
+        task.resume()
+        handler(translatedText)
     }
+
+
 }
+

@@ -15,6 +15,25 @@
 		181F976D2607A545007CDCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F976B2607A545007CDCAE /* LaunchScreen.storyboard */; };
 		181F97782607A545007CDCAE /* ThesisBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97772607A545007CDCAE /* ThesisBotTests.swift */; };
 		181F97832607A545007CDCAE /* ThesisBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97822607A545007CDCAE /* ThesisBotUITests.swift */; };
+		181F97952607A5D4007CDCAE /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F97942607A5D4007CDCAE /* ChatController.swift */; };
+		1881EAF3260D0E880009F2DB /* GoogleNlpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EAF2260D0E880009F2DB /* GoogleNlpHandler.swift */; };
+		1881EAF4260D0E880009F2DB /* GoogleNlpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EAF2260D0E880009F2DB /* GoogleNlpHandler.swift */; };
+		1881EB0A2619FE950009F2DB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB092619FE950009F2DB /* SwiftyJSON.swift */; };
+		1881EB0B2619FE950009F2DB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB092619FE950009F2DB /* SwiftyJSON.swift */; };
+		1881EB0C2619FE950009F2DB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB092619FE950009F2DB /* SwiftyJSON.swift */; };
+		1881EB1B262836D70009F2DB /* TranslatorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB1A262836D70009F2DB /* TranslatorHandler.swift */; };
+		1881EB1C262836D70009F2DB /* TranslatorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB1A262836D70009F2DB /* TranslatorHandler.swift */; };
+		1881EB1D262836D70009F2DB /* TranslatorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB1A262836D70009F2DB /* TranslatorHandler.swift */; };
+		1881EB222629A57C0009F2DB /* LuisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB212629A57C0009F2DB /* LuisController.swift */; };
+		1881EB232629A57D0009F2DB /* LuisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB212629A57C0009F2DB /* LuisController.swift */; };
+		1881EB242629A57D0009F2DB /* LuisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB212629A57C0009F2DB /* LuisController.swift */; };
+		1881EB2F262C9B5B0009F2DB /* ChatbotAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB2E262C9B5B0009F2DB /* ChatbotAnswers.swift */; };
+		1881EB30262C9B5B0009F2DB /* ChatbotAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB2E262C9B5B0009F2DB /* ChatbotAnswers.swift */; };
+		1881EB31262C9B5B0009F2DB /* ChatbotAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB2E262C9B5B0009F2DB /* ChatbotAnswers.swift */; };
+		1881EB43263A8AA60009F2DB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB42263A8AA60009F2DB /* ButtonView.swift */; };
+		1881EB44263A8AA60009F2DB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB42263A8AA60009F2DB /* ButtonView.swift */; };
+		1881EB45263A8AA60009F2DB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1881EB42263A8AA60009F2DB /* ButtonView.swift */; };
+		1881EB51263C613C0009F2DB /* google cloud logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1881EB50263C613C0009F2DB /* google cloud logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,15 @@
 		181F977E2607A545007CDCAE /* ThesisBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThesisBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181F97822607A545007CDCAE /* ThesisBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThesisBotUITests.swift; sourceTree = "<group>"; };
 		181F97842607A545007CDCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F97942607A5D4007CDCAE /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		1881EAF2260D0E880009F2DB /* GoogleNlpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleNlpHandler.swift; sourceTree = "<group>"; };
+		1881EB092619FE950009F2DB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		1881EB1326282AF30009F2DB /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1881EB1A262836D70009F2DB /* TranslatorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorHandler.swift; sourceTree = "<group>"; };
+		1881EB212629A57C0009F2DB /* LuisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuisController.swift; sourceTree = "<group>"; };
+		1881EB2E262C9B5B0009F2DB /* ChatbotAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotAnswers.swift; sourceTree = "<group>"; };
+		1881EB42263A8AA60009F2DB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		1881EB50263C613C0009F2DB /* google cloud logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google cloud logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +127,9 @@
 		181F975F2607A541007CDCAE /* ThesisBot */ = {
 			isa = PBXGroup;
 			children = (
+				1881EB4F263C61130009F2DB /* misc pics */,
+				1881EAFB2619FDCF0009F2DB /* SwiftyJSON framework */,
+				181F97932607A5B8007CDCAE /* Controller */,
 				181F97602607A541007CDCAE /* AppDelegate.swift */,
 				181F97622607A541007CDCAE /* SceneDelegate.swift */,
 				181F97642607A541007CDCAE /* ContentView.swift */,
@@ -106,6 +137,7 @@
 				181F976B2607A545007CDCAE /* LaunchScreen.storyboard */,
 				181F976E2607A545007CDCAE /* Info.plist */,
 				181F97682607A545007CDCAE /* Preview Content */,
+				1881EB42263A8AA60009F2DB /* ButtonView.swift */,
 			);
 			path = ThesisBot;
 			sourceTree = "<group>";
@@ -134,6 +166,35 @@
 				181F97842607A545007CDCAE /* Info.plist */,
 			);
 			path = ThesisBotUITests;
+			sourceTree = "<group>";
+		};
+		181F97932607A5B8007CDCAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				181F97942607A5D4007CDCAE /* ChatController.swift */,
+				1881EAF2260D0E880009F2DB /* GoogleNlpHandler.swift */,
+				1881EB1326282AF30009F2DB /* SwiftyJSON.swift */,
+				1881EB1A262836D70009F2DB /* TranslatorHandler.swift */,
+				1881EB212629A57C0009F2DB /* LuisController.swift */,
+				1881EB2E262C9B5B0009F2DB /* ChatbotAnswers.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1881EAFB2619FDCF0009F2DB /* SwiftyJSON framework */ = {
+			isa = PBXGroup;
+			children = (
+				1881EB092619FE950009F2DB /* SwiftyJSON.swift */,
+			);
+			path = "SwiftyJSON framework";
+			sourceTree = "<group>";
+		};
+		1881EB4F263C61130009F2DB /* misc pics */ = {
+			isa = PBXGroup;
+			children = (
+				1881EB50263C613C0009F2DB /* google cloud logo.png */,
+			);
+			path = "misc pics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181F976D2607A545007CDCAE /* LaunchScreen.storyboard in Resources */,
+				1881EB51263C613C0009F2DB /* google cloud logo.png in Resources */,
 				181F976A2607A545007CDCAE /* Preview Assets.xcassets in Resources */,
 				181F97672607A545007CDCAE /* Assets.xcassets in Resources */,
 			);
@@ -266,9 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1881EB222629A57C0009F2DB /* LuisController.swift in Sources */,
 				181F97612607A541007CDCAE /* AppDelegate.swift in Sources */,
+				1881EB43263A8AA60009F2DB /* ButtonView.swift in Sources */,
 				181F97632607A541007CDCAE /* SceneDelegate.swift in Sources */,
 				181F97652607A541007CDCAE /* ContentView.swift in Sources */,
+				1881EB2F262C9B5B0009F2DB /* ChatbotAnswers.swift in Sources */,
+				1881EB0A2619FE950009F2DB /* SwiftyJSON.swift in Sources */,
+				181F97952607A5D4007CDCAE /* ChatController.swift in Sources */,
+				1881EAF3260D0E880009F2DB /* GoogleNlpHandler.swift in Sources */,
+				1881EB1B262836D70009F2DB /* TranslatorHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +345,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1881EB0B2619FE950009F2DB /* SwiftyJSON.swift in Sources */,
+				1881EB30262C9B5B0009F2DB /* ChatbotAnswers.swift in Sources */,
+				1881EB232629A57D0009F2DB /* LuisController.swift in Sources */,
+				1881EAF4260D0E880009F2DB /* GoogleNlpHandler.swift in Sources */,
+				1881EB1C262836D70009F2DB /* TranslatorHandler.swift in Sources */,
 				181F97782607A545007CDCAE /* ThesisBotTests.swift in Sources */,
+				1881EB44263A8AA60009F2DB /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +359,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1881EB242629A57D0009F2DB /* LuisController.swift in Sources */,
 				181F97832607A545007CDCAE /* ThesisBotUITests.swift in Sources */,
+				1881EB45263A8AA60009F2DB /* ButtonView.swift in Sources */,
+				1881EB31262C9B5B0009F2DB /* ChatbotAnswers.swift in Sources */,
+				1881EB1D262836D70009F2DB /* TranslatorHandler.swift in Sources */,
+				1881EB0C2619FE950009F2DB /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
